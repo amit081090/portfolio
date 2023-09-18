@@ -1,0 +1,28 @@
+.home{
+
+    width:100%;
+    align-items:center;
+    font-family: "Aerial", sans-serif;
+    color:#3e497a;
+}
+
+.about{
+
+    width:100%;
+    height:calc(100vh-100px);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+
+}
+
+.about h2{
+
+    font-family: "Segoe UI";
+    font-size: 80px;
+    color:#e9d35b
+}
