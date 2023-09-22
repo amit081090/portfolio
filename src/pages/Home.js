@@ -11,6 +11,7 @@ function Home() {
         <h2> Hi, My Name is Amit</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
+          <p>Contact me:<b>+917895746078</b> or <b> bahugunaamit8@gmail.com</b></p>
           <LinkedInIcon />
           <EmailIcon />
           <GithubIcon />
