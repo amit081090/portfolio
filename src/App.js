@@ -8,6 +8,8 @@ import Footer from './Components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 
 
+
+
 function App() {
   return (
     <div className="App">

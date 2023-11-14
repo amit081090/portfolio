@@ -4,6 +4,7 @@ import proj3 from "../assets/proj3.webp";
 import proj4 from "../assets/proj4.webp";
 import proj5 from "../assets/proj5.jpg";
 import proj6 from "../assets/proj6.png";
+import proj7 from "../assets/proj7.jpg";
 
 export const ProjectList=[
     {
@@ -11,11 +12,12 @@ export const ProjectList=[
         name:"QuizApp",
         image: proj1,
         skills:"React,JavaScript,HTML,CSS",
+       
     },
 
     {
 
-        name:"Redux",
+        name:"E-commerce",
         image: proj2,
         skills:"Redux,React,JavaScript,HTML,CSS",
     },
@@ -29,14 +31,14 @@ export const ProjectList=[
 
     {
 
-        name:"QuizApp",
+        name:"Web Scrapping App",
         image: proj4,
         skills:"JavaScript,HTML,CSS",
     },
 
     {
 
-        name:"QuizApp",
+        name:"Social Media App",
         image: proj5,
         skills:"JavaScript,HTML,CSS",
     },
@@ -44,10 +46,21 @@ export const ProjectList=[
 
     {
 
-        name:"QuizApp",
+        name:"Tailwind CSS",
         image: proj6,
         skills:"JavaScript,HTML,CSS",
     },
+
+    
+
+        {
+
+            name:"Travel App UI",
+            image: proj7,
+            skills:"ReactJS Next JS JavaScript,HTML,CSS",
+        },
+    
+    
 
 
 

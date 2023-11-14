@@ -1,16 +1,20 @@
-import React from "react";
+
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../Styles/Home.css";
 
+
+
 function Home() {
+
+
   return (
     <div className="home">
       <div className="about">
         <h2> Hi, My Name is Amit</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
+          <p>"As a software developer, I have a passion for learning and creating driven by curiosity."</p>
           <p>Contact me:<b>+917895746078</b> or <b> bahugunaamit8@gmail.com</b></p>
           <LinkedInIcon />
           <EmailIcon />
@@ -23,7 +27,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Redux, HTML, CSS, React, NPM,
+              ReactJS, Next.js,Redux, HTML, CSS, NPM,Typescript
               GSAP, BootStrap, MaterialUI, StyledComponents
             </span>
           </li>
