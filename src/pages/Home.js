@@ -3,6 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../Styles/Home.css";
+//import { Link } from "react-router-dom";
 
 
 
@@ -10,13 +11,14 @@ function Home() {
 
 
   return (
+    <>
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Amit</h2>
+        <marquee><h2> Hi, My Name is Amit</h2></marquee>
         <div className="prompt">
           <p>"As a software developer, I have a passion for learning and creating driven by curiosity."</p>
           <p>Contact me:<b>+917895746078</b> or <b> bahugunaamit8@gmail.com</b></p>
-          <LinkedInIcon />
+          <a href="https://www.linkedin.com/in/amit-bahuguna-9578905a"> <LinkedInIcon /> </a>
           <EmailIcon />
           <GithubIcon />
         </div>
@@ -45,6 +47,7 @@ function Home() {
         </ol>
       </div>
     </div>
+    </>
   );
 }
 

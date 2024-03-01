@@ -10,15 +10,15 @@
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 35px;
+    font-size: 25px;
   }
   .project img {
-    width: 700px;
+    width: 200px;
     border-radius: 10px;
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 20px;
     color: #3e497a;
   }
   

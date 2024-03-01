@@ -16,7 +16,7 @@ export const ProjectList=[
     },
 
     {
-
+        url:'https://amit081090.github.io/Education-/',
         name:"E-commerce",
         image: proj2,
         skills:"Redux,React,JavaScript,HTML,CSS",
